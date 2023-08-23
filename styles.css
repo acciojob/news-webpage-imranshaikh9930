@@ -23,7 +23,7 @@
 
 }
 
-.latest-news-section,.Main-Article,.pictorial-news-section{
+.latest-news-section,.Main-Article{
 	background:white;
 	border-radius:5px;
 	padding:30px;
@@ -38,12 +38,14 @@
 	height:300px;
 }
 .pictorial-news-section{
+	
 	display:flex;
 	flex-direction:column;
-/* 	padding:30px; */
+	background-color:white;
+	padding:30px;
 	width:auto;
-/* 	text-align:center; */
-	border-radius:10px;
+	border-radius:5px;
+	text-align:center
 
 }
 .Main-article p{
