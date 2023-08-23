@@ -17,7 +17,32 @@
 }
 .container{
 	display:flex;
-	background-color : #f5f5f5
+	justify-content:space-evenly;
+	background-color : #f5f5f5;
+
+}
+
+.Articles,.Main-Article,.pictorial-news{
+	background:white;
+	border-radius:5px;
+		padding:30px;
+	
+} 
+.Articles{
+	height:100px;
+
+}
+.Main-Article{
+
+	height:300px;
+}
+.pictorial-news{
+	display:flex;
+	flex-direction:column;
+
+}
+.Main-article p{
+	text-align:justify;
 }
 
 img{
